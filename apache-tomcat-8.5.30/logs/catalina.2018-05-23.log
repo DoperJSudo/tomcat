@@ -1,0 +1,234 @@
+23-May-2018 16:28:20.058 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+23-May-2018 16:28:20.113 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 16:28:20.114 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-May-2018 16:28:20.172 INFO [www.doperj.top-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-May-2018 16:28:20.178 INFO [www.doperj.top-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-May-2018 16:28:20.199 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+23-May-2018 16:28:20.201 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 16:28:20.202 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+23-May-2018 16:28:20.203 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 16:52:06.828 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+23-May-2018 16:52:06.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+23-May-2018 16:52:06.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+23-May-2018 16:52:06.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+23-May-2018 16:52:06.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-May-2018 16:52:06.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-105-generic
+23-May-2018 16:52:06.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-May-2018 16:52:06.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+23-May-2018 16:52:06.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-8u162-b12-0ubuntu0.16.04.2-b12
+23-May-2018 16:52:06.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-May-2018 16:52:06.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/apache-tomcat-8.5.30
+23-May-2018 16:52:06.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/apache-tomcat-8.5.30
+23-May-2018 16:52:06.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/apache-tomcat-8.5.30/conf/logging.properties
+23-May-2018 16:52:06.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-May-2018 16:52:06.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-May-2018 16:52:06.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-May-2018 16:52:06.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+23-May-2018 16:52:06.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-May-2018 16:52:06.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/apache-tomcat-8.5.30
+23-May-2018 16:52:06.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/apache-tomcat-8.5.30
+23-May-2018 16:52:06.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/apache-tomcat-8.5.30/temp
+23-May-2018 16:52:06.876 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+23-May-2018 16:52:07.140 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+23-May-2018 16:52:07.164 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-May-2018 16:52:07.181 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 16:52:07.185 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-May-2018 16:52:07.191 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1480 ms
+23-May-2018 16:52:07.234 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-May-2018 16:52:07.234 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+23-May-2018 16:52:07.800 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/chatbot]
+23-May-2018 16:52:07.856 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/chatbot] has finished in [52] ms
+23-May-2018 16:52:07.856 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/host-manager]
+23-May-2018 16:52:07.920 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/host-manager] has finished in [63] ms
+23-May-2018 16:52:07.920 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/manager]
+23-May-2018 16:52:07.976 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/manager] has finished in [56] ms
+23-May-2018 16:52:07.977 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/examples]
+23-May-2018 16:52:08.467 INFO [www.doperj.top-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-May-2018 16:52:08.468 INFO [www.doperj.top-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-May-2018 16:52:08.469 INFO [www.doperj.top-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7a2aa5a8')
+23-May-2018 16:52:08.476 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/examples] has finished in [499] ms
+23-May-2018 16:52:08.478 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/docs]
+23-May-2018 16:52:08.508 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/docs] has finished in [30] ms
+23-May-2018 16:52:08.511 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+23-May-2018 16:52:08.540 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 16:52:08.547 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1355 ms
+23-May-2018 16:52:27.558 INFO [http-nio-80-exec-9] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [1527065546; Hm_lpvt_a03ca47d40cee1509f846cf6dfb38778=1527065546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+23-May-2018 16:55:25.811 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+23-May-2018 16:55:26.571 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 16:55:26.574 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-May-2018 16:55:27.189 INFO [www.doperj.top-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-May-2018 16:55:27.190 INFO [www.doperj.top-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-May-2018 16:55:27.218 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+23-May-2018 16:55:27.219 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 16:55:27.225 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+23-May-2018 16:55:27.226 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 16:56:50.783 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+23-May-2018 16:56:50.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+23-May-2018 16:56:50.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+23-May-2018 16:56:50.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+23-May-2018 16:56:50.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-May-2018 16:56:50.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-105-generic
+23-May-2018 16:56:50.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-May-2018 16:56:50.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+23-May-2018 16:56:50.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-8u162-b12-0ubuntu0.16.04.2-b12
+23-May-2018 16:56:50.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-May-2018 16:56:50.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/apache-tomcat-8.5.30
+23-May-2018 16:56:50.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/apache-tomcat-8.5.30
+23-May-2018 16:56:50.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/apache-tomcat-8.5.30/conf/logging.properties
+23-May-2018 16:56:50.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-May-2018 16:56:50.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-May-2018 16:56:50.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-May-2018 16:56:50.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+23-May-2018 16:56:50.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-May-2018 16:56:50.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/apache-tomcat-8.5.30
+23-May-2018 16:56:50.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/apache-tomcat-8.5.30
+23-May-2018 16:56:50.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/apache-tomcat-8.5.30/temp
+23-May-2018 16:56:50.834 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+23-May-2018 16:56:51.047 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+23-May-2018 16:56:51.079 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-May-2018 16:56:51.104 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 16:56:51.107 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-May-2018 16:56:51.110 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1368 ms
+23-May-2018 16:56:51.181 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-May-2018 16:56:51.182 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+23-May-2018 16:56:51.718 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/chatbot]
+23-May-2018 16:56:51.766 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/chatbot] has finished in [43] ms
+23-May-2018 16:56:51.767 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/host-manager]
+23-May-2018 16:56:51.831 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/host-manager] has finished in [63] ms
+23-May-2018 16:56:51.831 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/manager]
+23-May-2018 16:56:51.883 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/manager] has finished in [52] ms
+23-May-2018 16:56:51.883 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/examples]
+23-May-2018 16:56:52.307 INFO [www.doperj.top-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-May-2018 16:56:52.308 INFO [www.doperj.top-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-May-2018 16:56:52.310 INFO [www.doperj.top-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7a2aa5a8')
+23-May-2018 16:56:52.317 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/examples] has finished in [434] ms
+23-May-2018 16:56:52.318 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/docs]
+23-May-2018 16:56:52.351 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/docs] has finished in [33] ms
+23-May-2018 16:56:52.354 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+23-May-2018 16:56:52.384 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 16:56:52.402 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1291 ms
+23-May-2018 16:56:54.694 INFO [http-nio-80-exec-1] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [1527065546; Hm_lpvt_a03ca47d40cee1509f846cf6dfb38778=1527065697] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+23-May-2018 17:24:19.264 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-May-2018 17:24:19.265 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+23-May-2018 17:24:19.270 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 17:24:19.271 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-May-2018 17:24:19.319 INFO [www.doperj.top-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-May-2018 17:24:19.320 INFO [www.doperj.top-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-May-2018 17:24:19.348 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+23-May-2018 17:24:19.349 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 17:24:19.350 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+23-May-2018 17:24:19.351 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 17:24:20.524 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+23-May-2018 17:24:20.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+23-May-2018 17:24:20.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+23-May-2018 17:24:20.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+23-May-2018 17:24:20.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-May-2018 17:24:20.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-105-generic
+23-May-2018 17:24:20.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-May-2018 17:24:20.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+23-May-2018 17:24:20.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-8u162-b12-0ubuntu0.16.04.2-b12
+23-May-2018 17:24:20.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-May-2018 17:24:20.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/apache-tomcat-8.5.30
+23-May-2018 17:24:20.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/apache-tomcat-8.5.30
+23-May-2018 17:24:20.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/apache-tomcat-8.5.30/conf/logging.properties
+23-May-2018 17:24:20.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-May-2018 17:24:20.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-May-2018 17:24:20.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-May-2018 17:24:20.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+23-May-2018 17:24:20.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-May-2018 17:24:20.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/apache-tomcat-8.5.30
+23-May-2018 17:24:20.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/apache-tomcat-8.5.30
+23-May-2018 17:24:20.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/apache-tomcat-8.5.30/temp
+23-May-2018 17:24:20.571 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+23-May-2018 17:24:20.737 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+23-May-2018 17:24:20.760 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-May-2018 17:24:20.781 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 17:24:20.783 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-May-2018 17:24:20.784 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1193 ms
+23-May-2018 17:24:20.820 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-May-2018 17:24:20.820 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+23-May-2018 17:24:21.311 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/chatbot]
+23-May-2018 17:24:21.359 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/chatbot] has finished in [47] ms
+23-May-2018 17:24:21.359 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/host-manager]
+23-May-2018 17:24:21.419 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/host-manager] has finished in [59] ms
+23-May-2018 17:24:21.422 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/manager]
+23-May-2018 17:24:21.474 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/manager] has finished in [52] ms
+23-May-2018 17:24:21.476 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/examples]
+23-May-2018 17:24:21.904 INFO [www.doperj.top-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-May-2018 17:24:21.905 INFO [www.doperj.top-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-May-2018 17:24:21.910 INFO [www.doperj.top-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7a2aa5a8')
+23-May-2018 17:24:21.915 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/examples] has finished in [438] ms
+23-May-2018 17:24:21.917 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/docs]
+23-May-2018 17:24:21.947 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/docs] has finished in [30] ms
+23-May-2018 17:24:21.953 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+23-May-2018 17:24:21.982 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 17:24:21.991 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1207 ms
+23-May-2018 17:24:28.447 INFO [http-nio-80-exec-1] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [1527065546; Hm_lpvt_a03ca47d40cee1509f846cf6dfb38778=1527067353] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+23-May-2018 17:26:11.973 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+23-May-2018 17:26:12.031 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+23-May-2018 17:26:27.113 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-May-2018 17:26:27.113 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+23-May-2018 17:26:27.121 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 17:26:27.121 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-May-2018 17:26:27.154 INFO [www.doperj.top-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-May-2018 17:26:27.158 INFO [www.doperj.top-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-May-2018 17:26:27.191 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+23-May-2018 17:26:27.192 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 17:26:27.194 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+23-May-2018 17:26:27.195 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 17:26:28.296 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+23-May-2018 17:26:28.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+23-May-2018 17:26:28.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+23-May-2018 17:26:28.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+23-May-2018 17:26:28.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-May-2018 17:26:28.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-105-generic
+23-May-2018 17:26:28.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-May-2018 17:26:28.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+23-May-2018 17:26:28.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-8u162-b12-0ubuntu0.16.04.2-b12
+23-May-2018 17:26:28.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-May-2018 17:26:28.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/apache-tomcat-8.5.30
+23-May-2018 17:26:28.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/apache-tomcat-8.5.30
+23-May-2018 17:26:28.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/apache-tomcat-8.5.30/conf/logging.properties
+23-May-2018 17:26:28.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-May-2018 17:26:28.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-May-2018 17:26:28.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-May-2018 17:26:28.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+23-May-2018 17:26:28.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-May-2018 17:26:28.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/apache-tomcat-8.5.30
+23-May-2018 17:26:28.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/apache-tomcat-8.5.30
+23-May-2018 17:26:28.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/apache-tomcat-8.5.30/temp
+23-May-2018 17:26:28.348 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+23-May-2018 17:26:28.513 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+23-May-2018 17:26:28.539 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-May-2018 17:26:28.548 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 17:26:28.556 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-May-2018 17:26:28.556 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1132 ms
+23-May-2018 17:26:28.589 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-May-2018 17:26:28.590 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+23-May-2018 17:26:29.048 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/chatbot]
+23-May-2018 17:26:29.092 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/chatbot] has finished in [44] ms
+23-May-2018 17:26:29.094 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/host-manager]
+23-May-2018 17:26:29.163 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/host-manager] has finished in [68] ms
+23-May-2018 17:26:29.163 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/manager]
+23-May-2018 17:26:29.219 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/manager] has finished in [55] ms
+23-May-2018 17:26:29.219 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/examples]
+23-May-2018 17:26:29.644 INFO [www.doperj.top-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-May-2018 17:26:29.644 INFO [www.doperj.top-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-May-2018 17:26:29.647 INFO [www.doperj.top-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7a2aa5a8')
+23-May-2018 17:26:29.655 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/examples] has finished in [436] ms
+23-May-2018 17:26:29.656 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.30/webapps/docs]
+23-May-2018 17:26:29.687 INFO [www.doperj.top-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.30/webapps/docs] has finished in [31] ms
+23-May-2018 17:26:29.692 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+23-May-2018 17:26:29.722 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 17:26:29.742 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1185 ms
+23-May-2018 17:26:32.154 INFO [http-nio-80-exec-1] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [1527065546; Hm_lpvt_a03ca47d40cee1509f846cf6dfb38778=1527067469] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+23-May-2018 17:40:54.923 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-May-2018 17:40:54.924 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+23-May-2018 17:40:54.934 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 17:40:54.935 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-May-2018 17:40:54.968 INFO [www.doperj.top-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-May-2018 17:40:54.975 INFO [www.doperj.top-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-May-2018 17:40:54.991 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+23-May-2018 17:40:54.993 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-May-2018 17:40:54.994 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+23-May-2018 17:40:54.994 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

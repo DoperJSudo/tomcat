@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="content-type" content="text/html" charset="utf-8">
+<head>
+    <title>简易网页版聊天机器人(ChatBooooooot)</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .content
+    {
+        position:relative;
+        font-family: "Microsoft YaHei";
+    }
+    .adbox
+    {
+        position:absolute;
+        left:320px;
+        top:2px;
+    }
+    .adbox2
+    {
+        position:absolute;
+        left:430px;
+        top:580px;
+    }
+    .rightbox
+    {
+        line-height:25px !important;
+    }
+    .content .logo .backto
+    {
+        width:220px;
+        height:42px;
+        line-height:42px;
+        color:#fff;
+        background-color:rgb(45, 121, 66);
+        font-size:16px;
+        text-align:center;
+        display:block;
+        float:left;
+        overflow:hidden;
+        position:absolute;
+        right:11px;
+        top:10px;
+        text-decoration:none;
+        font-family: "Microsoft YaHei";
+        border:2px solid rgb(45, 121, 66);
+    }
+    .content .logo .backto:hover
+    {
+        color:green;
+        background-color:#fff;
+    }
+    </style>
+</head>
+<body>
+<!--<div class="h">
+没错，我就是传说中能萌死人的小贱鸡,小黄鸡网页版~无厘头机器人聊天工具,我不但能用风趣的萌语即时回答各种提问、陪你聊天解闷，我还是“学霸”哦，赶快向我挑战专业知识吧。
+</div>-->
+<form action="" method="post" onsubmit="ltgo();return false;">
+<div class="content">
+<div class="chatroom">
+    <!--
+    <div class="logo">
+    <img src="images/chatbot.jpeg" width="410px" height="255px" alt="小黄鸡" />
+
+    </div>
+-->
+    <br />
+    <div id="talkbox">
+        <div id="liaotian"></div>
+    </div>
+    <br />
+    <div class="sendbox">
+    <div class="inputroom">
+        <input type="text" class="userinput" name="lt_put" id="lt_put" title="按回车键发送" />
+    </div>    
+    <div class="buttomroom">
+        <input type="submit" id="chatbtn" value="发送" title="按回车键发送" />
+    </div>
+    
+    </div>
+</div>
+<div class="rightbox">
+<img src="images/head.jpg" width="270px" height="150px" alt="小黄鸡" /><br />
+您好，欢迎来和我聊天，没错，我就是传说中的<h2></h2><br /><h1>Chatbot网页版~无厘头机器人聊天工具,</h1><br />
+<h2></h2>嘿嘿~~~。<br />
+<div class="div20" style="height:27px;"></div>
+<div>
+    <script type="text/javascript">
+        /*小黄鸡-右-自定义标签云，创建于2014-6-22*/
+        var cpro_id = "u1595314";
+</script>
+    </div>
+</div>
+<div class="div20"></div>
+<div style="background-color:#FFEB78;width:100%;display:block;overflow:hidden;padding:0px 14px;">
+<div id="hm_t_9493"></div></div>
+<div class="nav">
+<!--
+<div style="float:left;">&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/news/1/3238.html" target="_blank">小黄鸡的故事</a>&nbsp;&nbsp;
+<a href="/news/1/3239.html" target="_blank">“调戏”小黄鸡</a>&nbsp;&nbsp;
+<a href="/news/1/3035.html" target="_blank">神器小黄鸡爆红</a>&nbsp;&nbsp;
+<a href="http://www.taoqutu.com" target="_blank">爆笑图</a>&nbsp;&nbsp;
+<a href="http://meinv.niurenqushi.com" target="_blank">小清新美女</a>&nbsp;&nbsp;
+</div>
+<div id="bdshare" class="bdshare_b" style="line-height: 12px;margin-top:10px;">
+<img src="http://bdimg.share.baidu.com/static/images/type-button-1.jpg?cdnversion=20120831" />
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=button&amp;uid=6543920" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+</div>
+<div style="width:760px;display:block;margin:0 auto;clear:both;margin-top:10px;">
+<script type="text/javascript">
+    /*小黄鸡-底部-760*90，创建于2014-6-22*/
+    var cpro_id = "u1595312";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
+</div>
+-->
+</div>
+</form>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script language="javascript" type="text/javascript">
+function ltgo()
+{
+    var newmsg=$("#lt_put").val();
+    if(newmsg=="") return;
+    $("#lt_put").css({"background-image":"url(/images/loader3.gif)","background-repeat":"no-repeat","background-position":"270px 10px"});
+    addmsg("我：",newmsg);
+    $("#lt_put").val("");
+    $.post("Serv1",{"txt":newmsg},function(data){
+        console.log(data);
+        addmsg("小黄鸡：",data);
+        $("#lt_put").css({"background-image":"none"});
+    });
+}
+function addmsg(username,msg)
+{
+    var oldhtml=$("#liaotian").html();
+    if(username=="我：")
+    {
+        newhtml="<div class='me'><span class='me_img'></span><span class='me_msg'>"+msg+"</span></div>";
+    }
+    else
+    {
+        newhtml="<div class='bot'><span class='bot_img'></span><span class='bot_msg'>"+msg+"</span></div>";
+    }
+    $("#liaotian").html(oldhtml+newhtml);
+    var scrollTop = $("#liaotian")[0].scrollHeight;
+    $("#liaotian").scrollTop(scrollTop);
+}
+addmsg("小白狗：", "<font style='line-height:40px;'>Hi~~~,和我聊聊天吧</font><br /><br /><img src='images/ball-dog.jpeg' />");
+</script>
+<div class="h">
+<h1>小白狗聊天机器人</h1>
+<script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fa03ca47d40cee1509f846cf6dfb38778' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</div>
+
+<script type="text/javascript">
+    /*小黄鸡-右下浮窗-300*250，创建于2014-6-22*/
+    var cpro_id = "u1595315";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/f.js" type="text/javascript"></script>
+</body>
+</html>
