@@ -1,0 +1,18 @@
+		Process pr = Runtime.getRuntime().exec("/root/apache-tomcat-8.5.30/webapps/chatbot/python/test.sh " + question);
+		BufferedReader err_br = new BufferedReader(new InputStreamReader(pr.getErrorStream()));
+		String line;
+		String answer = "";
+		while ((line = err_br.readLine()) != null) {
+		    //answer += line;
+		}
+		BufferedReader br = new BufferedReader(new InputStreamReader(pr.getInputStream()));
+		while ((line = br.readLine()) != null) {
+		    answer += line;
+		}
+		int ex = pr.waitFor();
+		    PrintWriter out = response.getWriter();
+		    //out.println(answer + " what?");
+		    //out.println(ex == 0 ? "succeed" : "fail");
+		    out.println(answer);
+		    br.close();
+		}
